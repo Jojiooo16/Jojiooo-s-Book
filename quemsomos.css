@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Habibi", serif;
+}
+
+body{
+    height: 80vh;
+}
+
+header {
+    position: sticky;
+    top: 0.1px;
+    z-index: 10;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.411);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    height: 78px;
+
+}
+
+.lista {
+    display: flex;
+
+}
+
+.lista li a {
+    color: black;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    text-decoration: none;
+    width: 100%;
+    color: #333;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.ul {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.busca {
+    font-family: "Intel One Mono", monospace;
+
+}
+
+.busca input {
+    width: 286px;
+    height: 36px;
+    font-family: "Intel One Mono", monospace;
+    background-color: #FFE4E4;
+    border: 0px solid transparent;
+    font-size: 24px;
+
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.Carrinho {
+    margin-left: 40px;
+    color: black;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 30px;
+    width: 100%;
+    color: #333;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex img {
+    width: 40%;
+    margin-right: 100%;
+}
+
+.busca_carro {
+    margin-left: 30%;
+    display: flex;
+}
+
+li {
+    width: 150px;
+}
+
+#Inicial {
+    width: 150px;
+}
+
+#contato {
+    width: 105px;
+}
+
+#cadastro {
+    width: 105px;
+}
+
+.texto {
+    color: black;
+}
+::selection {
+    background-color: rgb(62, 0, 87);
+    color: rgb(249, 219, 255);
+}
+/* ===================sec1====================== */
+.sec1  {
+    background-color: #f0ddfd;
+    width: 100%;
+    height: 880px;
+    margin-top: -78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.gatios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+.gatios img {
+    width: 20%;
+}
+.gatioso {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: -10%;
+
+}
+.gatioso img {
+    width: 20%;
+}
+.maior {
+    width: 100%;
+    height: 100%;
+}
+.title {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 124px;
+    font-weight: 400;
+}
+/* ==================footer================= */
+footer {
+    background-color: #63006C;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 96px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+}
+
+footer h2 {
+    font-size: 40px;
+    font-family: "Habibi", serif;
+    font-weight: 500;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 30%;
+    place-self: center;
+}
+
+.titlefoot h3 {
+    display: flex;
+    justify-content: start;
+}
+
+.titlefoot h3 {
+    font-size: 32px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+}
+
+.titlefoot li {
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    width: 80%;
+    font-size: 32px;
+    font-family: "Habibi", serif;
+}
+.titlefoot li img {
+    width: 5%;
+}
+.imgrede {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: -8%;
+}
+
+.imgrede img {
+    width: 20%;
+}
+/* =======================sec2================== */
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500vh;
+    background-color: #FFE4E4;
+}
+.animal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animal img {
+    width: 40%;
+}
+.animal h1 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 124px;
+    font-weight: 400;
+}
+.animal p {
+    font-family: "Habibi", serif;
+    font-size: 64px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+}
+.pessoas {
+    width: 60%;
+    display: flex;
+    justify-content: CENTER;
+    align-items: center;
+    flex-direction: column;
+}
