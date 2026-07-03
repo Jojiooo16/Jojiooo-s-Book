@@ -1,0 +1,534 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Habibi", serif;
+}
+
+header {
+    position: sticky;
+    top: 0.1px;
+    z-index: 10;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.411);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    height: 78px;
+
+}
+
+.lista {
+    display: flex;
+
+}
+
+.lista li a {
+    color: black;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    text-decoration: none;
+    width: 100%;
+    color: #333;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.ul {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.busca {
+    font-family: "Intel One Mono", monospace;
+
+}
+
+.busca input {
+    width: 286px;
+    height: 36px;
+    font-family: "Intel One Mono", monospace;
+    background-color: #FFE4E4;
+    border: 0px solid transparent;
+    font-size: 24px;
+
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.Carrinho {
+    margin-left: 40px;
+    color: black;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 30px;
+    width: 100%;
+    color: #333;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex img {
+    width: 40%;
+    margin-right: 100%;
+}
+
+.busca_carro {
+    margin-left: 30%;
+    display: flex;
+}
+
+li {
+    width: 150px;
+}
+
+#Inicial {
+    width: 150px;
+}
+
+#contato {
+    width: 105px;
+}
+
+#cadastro {
+    width: 105px;
+}
+
+.texto {
+    color: black;
+}
+
+/* ================sec1================ */
+.logo_grande {
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 30%;
+    height: 70%;
+}
+
+.sec1 {
+    background-color: #F7DEFF;
+    width: 100%;
+    height: 880px;
+    margin-top: -78px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Nome_grande {
+    background-image: url(nome\ grande.png);
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+/* ================sec2================ */
+.sec2 {
+    background-color: #E3B8FF;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec2 h1 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 96px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+/* ================sec3================ */
+.sec3 {
+    background-color: #F8E5FF;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sec3 h2 a {
+    text-decoration: none;
+    color: black;
+    font-family: "Grenze Gotisch", serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+/* ================sec4================ */
+.sec4 {
+    background-color: #FFEDE6;
+    width: 100%;
+    height: 880px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gato h1 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 96px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.gato p {
+    font-family: "Habibi", serif;
+    font-size: 40px;
+    width: 843px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+.gatos {
+
+    width: 635px;
+    height: 794px;
+}
+
+::selection {
+    background-color: rgb(62, 0, 87);
+    color: rgb(249, 219, 255);
+}
+
+.sec5 {
+    background-color: #FFEDE6;
+    width: 100%;
+    height: 300vh;
+    display: grid;
+    justify-content: center;
+
+}
+
+.sec5 h1 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 96px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.color {
+    background-color: #40006B;
+    width: 490px;
+    height: 720px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.color img {
+    width: 203px;
+    height: 313px;
+}
+
+.color h3 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-top: 50%;
+}
+
+.flexo {
+    display: flex;
+    justify-content: space-around;
+}
+
+#coraçao {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+}
+
+/* ================sec6================ */
+.sec6 {
+    background-color: #FFEDE6;
+    width: 100%;
+    height: 1100px;
+}
+
+.gatoss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gatoss h1 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 96px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.gatoss p {
+    font-family: "Habibi", serif;
+    font-size: 40px;
+    width: 60%;
+    z-index: 1;
+
+}
+
+.gatopreto {
+    transform: rotate(-90deg);
+}
+
+.img6 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10%;
+}
+
+.img6 img {
+    width: 30%;
+    height: 30%;
+
+}
+
+/* ================sec7================ */
+.sec7 {
+    background-color: #FFEDE6;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.ali {
+    background-color: #63006C;
+    width: 100%;
+    height: 20%;
+
+}
+
+.miniali {
+    background-color: #D453FF
+}
+
+.miniali h2 {
+    font-size: 85px;
+    font-family: "Grenze Gotisch", serif;
+    vertical-align: middle;
+    width: 100%;
+    height: 10vh;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.livros {
+    background-color: #63006C;
+    height: 80%;
+    display: grid;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sec77 {
+    background-color: #FFEDE6;
+    width: 85%;
+    height: 50vh;
+
+}
+
+.livros img {
+    width: 230px;
+    height: 313px;
+}
+
+.livro {
+    background-color: #63006C;
+    height: 80%;
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.livro a {
+    width: 200px;
+    height: 200px;
+
+}
+
+.a {
+    width: 10px;
+    height: 10px;
+}
+
+.bal {
+    background-color: #63006C;
+    width: 110%;
+    height: 20%;
+}
+
+.minibal {
+    background-color: #D453FF
+}
+
+.minibal h2 {
+    font-size: 85px;
+    font-family: "Grenze Gotisch", serif;
+    vertical-align: middle;
+    width: 100%;
+    height: 10vh;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.sec777 {
+    background-color: #FFEDE6;
+    width: 45%;
+    height: 50vh;
+    margin-left: -5%;
+}
+
+.imgli {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.imgli img {
+    width: 20%;
+    height: auto;
+}
+
+/* ================sec8================ */
+.sec8 {
+    background-color: #FFEDE6;
+    width: 100%;
+    height: 1100px;
+}
+
+.dragon img {
+    width: 25%;
+    height: auto;
+}
+
+.dragon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+.cat {
+    width: 100%;
+    height: auto;
+}
+
+/* ================sec9================*/
+.sec9 {
+    background-color: #FFEDE6;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* ==================footer================= */
+footer {
+    background-color: #63006C;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 96px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+}
+
+footer h2 {
+    font-size: 40px;
+    font-family: "Habibi", serif;
+    font-weight: 500;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 30%;
+    place-self: center;
+}
+
+.titlefoot h3 {
+    display: flex;
+    justify-content: start;
+}
+
+.titlefoot h3 {
+    font-size: 32px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+}
+
+.titlefoot li {
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    width: 80%;
+    font-size: 32px;
+    font-family: "Habibi", serif;
+}
+.titlefoot li img {
+    width: 5%;
+}
+.imgrede {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: -8%;
+}
+
+.imgrede img {
+    width: 20%;
+}

@@ -167,6 +167,44 @@ li {
     font-size: 124px;
     font-weight: 400;
 }
+
+/* =======================sec2================== */
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500vh;
+    background-color: #FFE4E4;
+}
+.animal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animal img {
+    width: 40%;
+}
+.animal h1 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 124px;
+    font-weight: 400;
+}
+.animal p {
+    font-family: "Habibi", serif;
+    font-size: 64px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+}
+.pessoas {
+    width: 60%;
+    display: flex;
+    justify-content: CENTER;
+    align-items: center;
+    flex-direction: column;
+}
 /* ==================footer================= */
 footer {
     background-color: #63006C;
@@ -230,41 +268,4 @@ footer h2 {
 
 .imgrede img {
     width: 20%;
-}
-/* =======================sec2================== */
-.sec2 {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 500vh;
-    background-color: #FFE4E4;
-}
-.animal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.animal img {
-    width: 40%;
-}
-.animal h1 {
-    font-family: "Grenze Gotisch", serif;
-    font-size: 124px;
-    font-weight: 400;
-}
-.animal p {
-    font-family: "Habibi", serif;
-    font-size: 64px;
-    font-weight: 400;
-    width: 50%;
-    text-align: center;
-}
-.pessoas {
-    width: 60%;
-    display: flex;
-    justify-content: CENTER;
-    align-items: center;
-    flex-direction: column;
 }
