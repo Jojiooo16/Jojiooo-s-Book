@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Habibi", serif;
+}
+
+body{
+    height: 80vh;
+}
+
+header {
+    position: sticky;
+    top: 0.1px;
+    z-index: 10;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.411);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    height: 78px;
+
+}
+
+.lista {
+    display: flex;
+
+}
+
+.lista li a {
+    color: black;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    text-decoration: none;
+    width: 100%;
+    color: #333;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.ul {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.busca {
+    font-family: "Intel One Mono", monospace;
+
+}
+
+.busca input {
+    width: 286px;
+    height: 36px;
+    font-family: "Intel One Mono", monospace;
+    background-color: #FFE4E4;
+    border: 0px solid transparent;
+    font-size: 24px;
+
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.Carrinho {
+    margin-left: 40px;
+    color: black;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 30px;
+    width: 100%;
+    color: #333;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex img {
+    width: 40%;
+    margin-right: 100%;
+}
+
+.busca_carro {
+    margin-left: 30%;
+    display: flex;
+}
+
+li {
+    width: 150px;
+}
+
+#Inicial {
+    width: 150px;
+}
+
+#contato {
+    width: 105px;
+}
+
+#cadastro {
+    width: 105px;
+}
+
+.texto {
+    color: black;
+}
+/* ==============================sec1================================== */
+.sec1 {
+    background-color: #F7DEFF;
+    width: 100%;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+input {
+    width: 80%;
+    height: 4%;
+    font-size: 18px;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    background-color: #E6AAFA;
+    font-family: "Intel One Mono", monospace;
+    color: black;
+}
+.space {
+    margin-top: 80px;
+}
+h1 {
+    font-size: 100px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 64px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 43px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.flexstart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.flexstart h2 {
+    font-size: 43px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.pedido {
+    background-color: #E3B8FF;
+    width: 80%;
+    height: 15%;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+}
+.capa {
+    width: 18%;
+    height: 100%;
+    background-color: #A37CA7;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.colums {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ==============================sec2================================== */
+.sec2 {
+    background-color: #F7DEFF;
+    width: 100%;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ==================footer================= */
+footer {
+    background-color: #63006C;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 96px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+}
+
+footer h2 {
+    font-size: 40px;
+    font-family: "Habibi", serif;
+    font-weight: 500;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 30%;
+    place-self: center;
+}
+
+.titlefoot h3 {
+    display: flex;
+    justify-content: start;
+}
+
+.titlefoot h3 {
+    font-size: 32px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+}
+
+.titlefoot li {
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    width: 80%;
+    font-size: 32px;
+    font-family: "Habibi", serif;
+}
+.titlefoot li img {
+    width: 5%;
+}
+.imgrede {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: -8%;
+}
+
+.imgrede img {
+    width: 20%;
+}
