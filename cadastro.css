@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Habibi", serif;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.452);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    height: 78px;
+    position: static;
+}
+.lista {
+    display: flex;
+    
+}
+.lista li a{
+    color: black;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    text-decoration: none;
+    width: 100%;
+    color: #333;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+ul {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+.ul {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+.busca {
+    font-family: "Intel One Mono", monospace;
+    
+}
+.busca input {
+    width: 286px;
+    height: 36px;
+    font-family: "Intel One Mono", monospace;
+    background-color: #FFE4E4;
+    border: 0px solid transparent;
+    font-size: 24px;
+
+}
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.Carrinho {
+    margin-left: 40px;
+    color: black;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 30px;
+    width: 100%;
+    color: #333;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flex img {
+    width: 40%;
+    margin-right: 100%;
+}
+.busca_carro {
+    margin-left: 30%;
+    display: flex;
+}
+
+li{
+    width: 150px;
+}
+#Inicial {
+    width: 150px;
+}
+#contato {
+    width: 105px;
+}
+#cadastro {
+    width: 105px;
+}
+/* ======================sec1========================= */
+.sec1 {
+    background-color: #F7DEFF;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+h1 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 64px;
+}
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.forms {
+    background-color: #E6AAFA;
+    width: 30%;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.forms input {
+    width: 80%;
+    height: 6%;
+    border-radius: 10px;
+    font-family: "Intel One Mono", monospace;
+}
+.forms div {
+    display: flex;
+    justify-content: space-around;
+
+    width: 80%;
+    height: 5%;
+}
+.forms div input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-family: "Intel One Mono", monospace;
+}
+textarea {
+    width: 80%;
+    height: 30%;
+    border-radius: 10px;
+    font-family: "Intel One Mono", monospace;
+}
+.forms a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #a703b6;
+    width: 50%;
+    height: 10%;
+    border-radius: 50px;
+}
+.forms a p {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 50px;
+    color: #E6AAFA;
+}
+.forms a:hover {
+    background-color: #E6AAFA;
+    border: #a703b6 solid 2px;
+    
+}
+.forms a p:hover {
+    color: #63006C;
+}
+.cima {
+    display: flex;
+    align-items: start;
+    width: 40%;
+    height: 100%;
+
+}
+.cima img {
+    width: 60%;
+    height: 60%;
+}
+.baixo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 40%;
+    height: 100%;
+}
+.baixo img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 60%;
+
+}
+/* ==================footer================= */
+footer {
+    background-color: #63006C;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 96px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+}
+
+footer h2 {
+    font-size: 40px;
+    font-family: "Habibi", serif;
+    font-weight: 500;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 30%;
+    place-self: center;
+}
+
+.titlefoot h3 {
+    display: flex;
+    justify-content: start;
+}
+
+.titlefoot h3 {
+    font-size: 32px;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+}
+
+.titlefoot li {
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    width: 80%;
+    font-size: 32px;
+    font-family: "Habibi", serif;
+}
+
+.titlefoot li img {
+    width: 5%;
+}
+
+.imgrede {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: -8%;
+}
+
+.imgrede img {
+    width: 20%;
+}
